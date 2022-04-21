@@ -71,7 +71,7 @@ public void setEmp_manager(String emp_manager) {
 	this.emp_manager = emp_manager;
 }
 @Override
-public toString() {
+public String toString() {
 	return "Employees2 [empid=" + empid + ", emp_name=" + emp_name + ", emp_department=" + department
 			+ ", emp_designation=" + emp_designation + ", emp_email=" + emp_email
 			+ ", emp_salary=" + emp_salary + ", emp_manager=" + emp_manager + "]";
